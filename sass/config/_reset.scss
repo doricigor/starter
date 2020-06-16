@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+## Reset
+--------------------------------------------------------------*/
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+html { -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/*--------------------------------------------------------------
+## Base Reset
+--------------------------------------------------------------*/
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; -moz-osx-font-smoothing: grayscale;}
+::-moz-selection { background: #000; color: #fff; text-shadow: none; }
+::selection { background: #000; color: #fff; text-shadow: none; }
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+a { text-decoration: none; color: #000; }
+a:visited { }
+a:hover { }
+a:focus, a:hover, a:active { outline: none; }
+
+/*--------------------------------------------------------------
+## Lists
+--------------------------------------------------------------*/
+
+nav ul,
+nav ol,
+ul,
+li { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
