@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header>
+<header class="header">
 
 </header>
